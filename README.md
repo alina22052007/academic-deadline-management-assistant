@@ -6,6 +6,8 @@ Built with a **hybrid architecture**: mathematical explainability for scoring an
 
 ---
 
+deploy link - https://academic-deadline-assistant.streamlit.app/
+
 ## 1. Problem Statement
 
 University students juggle multiple high-stakes assignments, laboratory reports, quizzes, and project milestones across multiple courses simultaneously. Traditional to-do apps display flat, unordered lists or simple calendar reminders that:
