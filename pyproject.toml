@@ -1,0 +1,10 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[tool.pyright]
+extraPaths = ["."]
+pythonVersion = "3.11"
+
+[tool.pylance]
+extraPaths = ["."]

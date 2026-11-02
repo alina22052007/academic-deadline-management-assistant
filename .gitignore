@@ -1,0 +1,32 @@
+# Environment and secrets
+.env
+*.env
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+.venv/
+env/
+
+# Pytest & Coverage
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Local database & logs
+data/*.db
+logs/*.log
+outbox/*.eml
+exports/*.csv
+exports/*.ics
+exports/*.xlsx
+
+# Streamlit
+.streamlit/
+
+# OS Files
+.DS_Store
+

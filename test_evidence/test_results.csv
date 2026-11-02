@@ -1,0 +1,6 @@
+id,name,status,latency_ms,expected,actual,rubric_score
+TC1,Normal Tasks - Distinct Deadlines,PASS,0.2,"0 conflicts, top task 'Task A'","0 conflicts, top task 'Task A' (Score: 53.7)",10.0
+TC2,Same-Day / Same-Hour Deadline Clash,PASS,0.1,At least 1 conflict with type 'SAME_DAY_CLASH',1 conflict(s) detected: ['SAME_DAY_CLASH'],10.0
+TC3,Workload Overload,PASS,0.0,WORKLOAD_OVERLOAD conflict + 'Critical' priority,"Conflict: ['WORKLOAD_OVERLOAD'], Priority: 'Critical' (Score: 75.8)",10.0
+TC4,Edge Cases & Prompt Injection Resilience,PASS,0.1,"Validation catches invalid inputs, rejects duplicate, flags prompt-injection","Caught 3 validation errors, duplicate rejected, injection flagged: True",10.0
+TC5,Free-Text Extraction,PASS,0.1,Exactly 4 structured tasks extracted,"Extracted 4 tasks via fallback. Courses: ['CS340', 'CS470', 'CS350', 'CS301']",10.0
